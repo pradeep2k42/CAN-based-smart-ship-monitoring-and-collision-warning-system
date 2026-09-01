@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "ecu_receivemain.o" --strict --scatter "ECU_receive.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\ECU_receive.map" -o "ECU_receive.axf"

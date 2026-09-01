@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "ecu1_transmit.o" --strict --scatter "ECU1_transmit.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\ECU1_transmit.map" -o "ECU1_transmit.axf"
